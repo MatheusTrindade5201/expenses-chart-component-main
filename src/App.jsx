@@ -1,9 +1,14 @@
+import { Fragment } from "react"
+import { ThemeProvider } from "styled-components"
+import GlobalStyle from "./styles/globalStyle"
+import { themes } from "./styles/theme"
+
 function App() {
 
   return (
-    <div className="App">
-     
-    </div>
+    <ThemeProvider theme={themes}>
+      <GlobalStyle />
+    </ThemeProvider>
   )
 }
 

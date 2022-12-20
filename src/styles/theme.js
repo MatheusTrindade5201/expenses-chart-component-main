@@ -1,4 +1,4 @@
-export const Styles = {
+export const themes = {
     colors:{
         softRed: 'hsl(10, 79%, 65%)',
         cyan: 'hsl(186, 34%, 60%)',

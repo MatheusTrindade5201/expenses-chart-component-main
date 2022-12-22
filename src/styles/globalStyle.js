@@ -15,6 +15,7 @@ const GlobalStyle = createGlobalStyle`
         flex-direction: column;
         align-items: center;
         justify-content: center;
+        font-family: 'DM Sans', sans-serif;
     }
 `
 export default GlobalStyle

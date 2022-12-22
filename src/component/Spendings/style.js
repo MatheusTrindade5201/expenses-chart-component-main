@@ -11,6 +11,7 @@ export const SpendingsWrapper = styled.div`
     max-width: 800px;
     margin-top: 1.5rem;
     box-sizing: border-box;
+    flex-direction: column;
 `
 
 export const Title = styled.h2`

@@ -13,7 +13,7 @@ const Chart = () => {
 
     return (
         <ChartWrapper >
-            {data.map(data => <Bar greatest={data.amount === max ? true : false}><p className="amount">${data.amount}</p><span className="bar" style={{height: `${data.amount*2.5}px`}}></span><p className="day">{data.day}</p></Bar>)}
+            {data.map(data => <Bar key={data.day} greatest={data.amount === max ? true : false}><p className="amount">${data.amount}</p><span className="bar" style={{height: `${data.amount*2.5}px`}}></span><p className="day">{data.day}</p></Bar>)}
         </ChartWrapper>
     )
 }

@@ -4,6 +4,8 @@ export const ChartWrapper = styled.div`
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
+    padding-bottom: 2rem;
+    border-bottom: 3px solid ${props => props.theme.colors.cream};
 `
 
 export const Bar = styled.div`

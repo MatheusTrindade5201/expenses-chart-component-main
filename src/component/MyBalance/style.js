@@ -8,7 +8,7 @@ export const MyBalanceWrapper = styled.div`
     padding: 1.5rem;
     border-radius: 18px;
     color: ${props => props.theme.colors.paleOrange};
-    max-width: 800px;
+    max-width: 500px;
     box-sizing: border-box;
 
     h3{

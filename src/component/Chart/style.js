@@ -15,9 +15,10 @@ export const Bar = styled.div`
 
     .bar{
         display: inline-block;
-        width: 30px;
+        width: 8vw;
         background-color: ${({greatest}) => greatest ? (props => props.theme.colors.cyan) : (props => props.theme.colors.softRed)};
         border-radius: 3px;
+        max-width: 56px
     }
     
     .amount{
